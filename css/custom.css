@@ -1,0 +1,106 @@
+/*For ICST color*/
+
+.s{
+	color: #4287f5;
+}
+.ict{
+	color: red;
+}
+
+
+.btn-outline-info{
+	border-radius: 30px;
+}
+
+
+
+/*For Carousel*/
+
+header .carousel-inner .item{
+	height: 100vh;
+}
+
+.carousel-caption{
+	padding-bottom: 200px;
+}
+
+.carousel-caption h2{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.carousel-control.right{
+	background-image: none;
+}
+
+.carousel-control.left{
+	background-image: none;
+}
+
+
+@media(max-width: 768px){
+	#mycarousel{
+		margin-top: 70px;
+	}
+}
+
+
+/*For Jumbotron*/
+
+header .jumbotron{
+    padding-top: 10rem;
+	padding-bottom: calc(10rem - 72px);
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(41, 85, 143, 0.8)), to(rgba(117, 177, 255, 0.8))), url("../img/banner3.jpg");
+	background: linear-gradient(to bottom, rgba(41, 85, 143, 0.8) 0%, rgba(117, 177, 255, 0.8) 100%), url("../img/banner1.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
+
+
+
+/*.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}*/
+
+.overlay {
+
+	padding: 5px;
+ 
+  background-color: rgba(107, 103, 99,0.6);
+}
+
+.content {
+  position: absolute;
+  /*bottom: 0;*/
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  /*width: 100%;*/
+  padding: 20px;
+}
+
+
+
+
+hr.divider {
+  max-width: 5.25rem;
+  border-width: 0.2rem;
+  border-color: #4287f5;
+}
+
+.about:hover {
+ /* background-color: #89cff0;*/
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(41, 85, 143, 0.8)), to(rgba(117, 177, 255, 0.8))), url("../img/banner2.jpg");
+	background: linear-gradient(to bottom, rgba(41, 85, 143, 0.8) 0%, rgba(117, 177, 255, 0.8) 100%),
+	
+}
+
+a.con:hover{
+	background-color: #4287f5;
+}
